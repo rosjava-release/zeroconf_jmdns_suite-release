@@ -53,10 +53,23 @@ allprojects {
 subprojects {
     apply plugin: 'java'
     apply plugin: 'maven'
+    apply plugin: 'maven-publish'
 
     sourceCompatibility = 1.6
     targetCompatibility = 1.6
 
+    publishing {
+        publications {
+            mavenJava(MavenPublication) {
+                from components.java
+            }
+        }
+        repositories {
+            maven {
+               url 'file://' + project.rosMavenDeploymentRepository 
+            }
+        }
+    }
     def repoURLs = project.rosMavenPath.collect { 'file://' + it }
     repositories {
         repoURLs.each { p ->
@@ -69,6 +82,7 @@ subprojects {
             url 'https://github.com/rosjava/rosjava_mvn_repo/raw/master'
         }
     }
+/*
     if ( project.rosMavenDeploymentRepository != 'null' && project.rosMavenDeploymentRepository != '' ) {
         uploadArchives {
             repositories.mavenDeployer {
@@ -76,7 +90,8 @@ subprojects {
             }
         }
     }
-/*
+    println("Upload archives ${uploadArchives}")
+    println("Upload archives ${uploadArchives.repositories.mavenDeployer.repository.url}")
     apply plugin: 'ros'
     apply plugin: 'ros-java'
 */
