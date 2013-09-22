@@ -1,0 +1,12 @@
+Source: ros-hydro-zeroconf-jmdns-suite
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin, ros-hydro-rosjava-bootstrap, ros-hydro-rosjava-build-tools
+Homepage: http://ros.org/wiki/zeroconf_jmdns_suite
+Standards-Version: 3.9.2
+
+Package: ros-hydro-zeroconf-jmdns-suite
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, 
+Description: An implementation of zeroconf in pure java.
