@@ -1,3 +1,22 @@
+## zeroconf_jmdns_suite - 0.1.9-3
+
+User `snorri@snorriheim` released the packages in the `zeroconf_jmdns_suite` repository by running `/usr/local/bin/bloom-release --track hydro --rosdistro hydro zeroconf_jmdns_suite` on `Sun, 22 Sep 2013 15:29:04 -0000`
+
+The `zeroconf_jmdns_suite` package was released.
+
+Version of package(s) in repository `zeroconf_jmdns_suite`:
+- rosdistro version: `0.1.8-0`
+- old version: `0.1.9-2`
+- new version: `0.1.9-3`
+
+Versions of tools used:
+- bloom version: `0.4.4`
+- catkin_pkg version: `0.1.19`
+- rosdep version: `0.10.21`
+- rosdistro version: `0.2.13`
+- vcstools version: `0.1.31`
+
+
 ## zeroconf_jmdns_suite - 0.1.9-2
 
 User `snorri@snorriheim` released the packages in the `zeroconf_jmdns_suite` repository by running `/usr/local/bin/bloom-release --track hydro --rosdistro hydro zeroconf_jmdns_suite` on `Sun, 22 Sep 2013 15:10:57 -0000`
