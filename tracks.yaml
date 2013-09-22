@@ -12,7 +12,7 @@ tracks:
     last_version: 0.1.8
     name: zeroconf_jmdns_suite
     patches: null
-    release_inc: '1'
+    release_inc: '2'
     release_repo_url: https://github.com/rosjava-release/zeroconf_jmdns_suite-release.git
     release_tag: :{version}
     ros_distro: hydro
