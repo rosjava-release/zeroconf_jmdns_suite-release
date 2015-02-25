@@ -1,17 +1,25 @@
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Changelog for package zeroconf_jmdns_suite
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Changelog
+=========
+
+0.2.1 (2015-02-25)
+------------------
+* gradle 1.8 -> 2.2.1
+* Contributors: Daniel Stonier
+
+0.2.0 (2015-02-18)
+------------------
+* First build on indigo
 
 0.1.13 (2013-11-01)
-------------------
+-------------------
 * constrain open ranged dependencies.
 
 0.1.12 (2013-10-31)
-------------------
+-------------------
 * use ROS_MAVEN_REPOSITORY
 
 0.1.11 (2013-10-25)
-------------------
+-------------------
 * official maven style open ended dependencies.
 
 0.1.10 (2013-09-23)
