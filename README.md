@@ -1,3 +1,26 @@
+## zeroconf_jmdns_suite (kinetic) - 0.3.0-0
+
+The packages in the `zeroconf_jmdns_suite` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release zeroconf_jmdns_suite --track kinetic --rosdistro kinetic --new-track` on `Sun, 25 Dec 2016 15:58:05 -0000`
+
+The `zeroconf_jmdns_suite` package was released.
+
+Version of package(s) in repository `zeroconf_jmdns_suite`:
+
+- upstream repository: https://github.com/rosjava/zeroconf_jmdns_suite.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.3.0-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.23`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.5`
+- rosdistro version: `0.5.0`
+- vcstools version: `0.1.39`
+
+
 ## zeroconf_jmdns_suite (indigo) - 0.2.1-0
 
 The packages in the `zeroconf_jmdns_suite` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --track indigo --rosdistro indigo zeroconf_jmdns_suite` on `Wed, 25 Feb 2015 13:48:27 -0000`
